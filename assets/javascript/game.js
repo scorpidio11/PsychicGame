@@ -17,7 +17,7 @@
        //When User Push Keyboard
     document.onkeyup = function () {
         var userGuess = event.key.toLowerCase();
-        var computerGuess = computerChoices[Math.floor(Math.random())];
+        var computerGuess = computerChoices[Math.floor(Math.random() * computerChoices.length)];
     
       //Guessed Alpahet added to empty arry and show on screen
         userGuessTotal.push(userGuess);
