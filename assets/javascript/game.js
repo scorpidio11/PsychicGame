@@ -44,8 +44,7 @@
         {
             loses++;
         }
-
-
+  
 
         // Creating a variable to hold our new HTML. Our HTML now keeps track of the user and computer guesses, and wins/losses/ties.
         var html =
@@ -59,4 +58,5 @@
 
         // Set the inner HTML contents of the #game div to our html string
         document.querySelector("#game").innerHTML = html;
+  
     };
